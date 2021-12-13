@@ -1,0 +1,73 @@
+[
+  {
+    "type": "text",
+    "name": "firstName",
+    "placeholder": "Pablo",
+    "label": "First Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLength",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "type": "text",
+    "name": "lastName",
+    "placeholder": "Ibarra",
+    "label": "Last Name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      }
+    ]
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "placeholder": "john@google",
+    "label": "Email",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "email"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "name": "favoriteGame",
+    "label": "Favorite Game",
+    "value": "",
+    "options": [
+      {
+        "id": "1",
+        "label": "Super Mario Bros"
+      }, 
+      {
+        "id": "2", 
+        "label": "Zelda"
+      }, 
+      {
+        "id": "3",
+        "label": "Metroid"
+      },
+      {
+        "id": "4",
+        "label": "Pokemon"
+      },
+      {
+        "id": "5",
+        "label": "Street Fighter"
+      }
+    ]
+  }
+]
